@@ -76,6 +76,28 @@ body {
   cursor: pointer;
 }
 
+.repayment {
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.interestOnly {
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.actions4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .actions5 button p {
   font-size: 14px;
 }

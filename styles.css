@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "CustomFont"; /* Replace with your desired font name */
+  src: url("assets/fonts/PlusJakartaSans-VariableFont_wght.ttf")
+    format("truetype"); /* Path to your .ttf file */
+  font-weight: normal; /* Adjust if the font has specific weights */
+  font-style: normal; /* Adjust if the font has specific styles */
+}
+
+/* Apply the font to specific elements */
+body {
+  font-family: "CustomFont", sans-serif; /* Fallback font included */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+}
+
+.actions1 {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+  }
+}

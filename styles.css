@@ -63,6 +63,27 @@ body {
   color: rgb(169, 169, 169);
 }
 
+.actions5 button {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.actions5 button p {
+  font-size: 14px;
+}
+
+.actions5 button img {
+  width: 10%;
+}
+
 .actions1 p {
   text-decoration: underline;
   color: rgb(169, 169, 169);

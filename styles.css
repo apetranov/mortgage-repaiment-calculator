@@ -27,14 +27,16 @@ body {
   width: 50%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
   padding: 20px;
+  border-radius: 20px;
 }
 
 .actions {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+
   width: 50%;
+  gap: 20px;
 }
 
 .actions1 {
@@ -45,7 +47,26 @@ body {
 }
 
 .actions h1 {
-  font-size: 26px;
+  font-size: 20px;
+}
+
+.actions2 p {
+  color: rgb(169, 169, 169);
+}
+
+.actions3 {
+  display: flex;
+  gap: 10px;
+}
+
+.actions3 div p {
+  color: rgb(169, 169, 169);
+}
+
+.actions1 p {
+  text-decoration: underline;
+  color: rgb(169, 169, 169);
+  cursor: pointer;
 }
 
 .results {
